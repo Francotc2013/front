@@ -1,0 +1,199 @@
+@import url('https://fonts.google.com/specimen/Be+Vietnam');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+    border: solid 1px red;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 190px;
+    align-items: center;
+}
+
+header nav ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 28px;
+}
+
+header nav ul li a {
+    justify-content: space-around;
+    margin: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+header nav ul li a:hover{
+    color: lightgray;
+}
+
+header button.botnav{
+    cursor: pointer;
+    background-color: #F3603B;
+    color: white;
+    width: 134px;
+    height: 44px;
+    border: none;
+    border-radius: 50px;
+    box-shadow:   -1px 7px 25px -3px rgba(0,0,0,0.75);
+}
+
+header button:hover {
+    transition: all 0.25s ease-in-out;
+    background-color: rgba(242, 141, 119, 0.95);
+}
+
+header h1.logoh{
+    height: 24px;
+}
+
+
+header .hamburguesa {
+    display: none;
+    color:#232D4F;
+}
+
+/* Main */
+/* Sector 1 */
+main .sec1{
+    display: flex;
+    justify-content: center;
+}
+
+.sec1 article {
+    display: flex;
+    flex-wrap: wrap;
+    gap:28px ;
+    flex-direction: column;
+    width: 35%;
+    min-width: 700px;
+
+}
+
+.sec1 article img{
+    width: 600px;
+}
+
+.sec1 article h2{
+    width: 500px;
+    color: #232D4F;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.sec1 article p {
+    font-size: 17px;
+    width: 350px;
+    font-weight: 550;
+    line-height: 22px;
+}
+
+.sec1 article button {
+    cursor: pointer;
+    background-color: #F3603B;
+    color: white;
+    width: 135px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: -1px 7px 25px -3px rgba(0,0,0,0.75);
+}
+
+.sec1 article button:hover {
+    transition: all 0.25s ease-in-out;
+    background-color: rgba(242, 141, 119, 0.95);
+}
+
+.box1 {
+    margin-top: 70px;
+}
+
+/* Seccion 2 */
+main .sec2{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.sec2 article{
+    min-width: 700px;
+    width: 35%;
+}
+
+.sec2 article h2 {
+    width: 550px;
+    min-width: 400px;
+    font-size: 40px;
+    font-weight: 700;
+    color:#232851;
+}
+
+
+.sec2 article p{
+    width: 350px;
+    margin-top: 36px;
+    font-size: 16px;
+    line-height: 20px;
+    min-width: 300px;
+    font-weight: 550;
+}
+
+.list1 h3::before{
+    content: "01";
+    background-color: #F3603B;
+    color: white;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    border-radius: 15px;
+    display: inline-block;
+    padding-top: 5px;
+    margin-right: 23px;
+}
+
+.list2 h3::before{
+    content: "02";
+    background-color: #F3603B;
+    color: white;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    border-radius: 15px;
+    display: inline-block;
+    padding-top: 5px;
+    margin-right: 23px;
+}
+
+.list3 h3::before{
+    content: "03";
+    background-color: #F3603B;
+    color: white;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    border-radius: 15px;
+    display: inline-block;
+    padding-top: 5px;
+    margin-right: 23px;
+}
+
+.boxtext{
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B3B2B7;
+    font-weight: 400;
+    padding-left: 75px;
+}
+
+.boxl{
+    margin-top: 42px;
+}
