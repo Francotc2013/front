@@ -112,9 +112,10 @@ main .sec1{
     background-color: rgba(242, 141, 119, 0.95);
 }
 
-.box1 {
-    margin-top: 70px;
-}
+/* .box1 {
+    margin-bottom: 70px;
+    margin-top: 0;
+} */
 
 /* Seccion 2 */
 main .sec2{
@@ -129,6 +130,7 @@ main .sec2{
 }
 
 .sec2 article h2 {
+    margin-bottom: 50px;
     width: 550px;
     min-width: 400px;
     font-size: 40px;
@@ -138,8 +140,7 @@ main .sec2{
 
 
 .sec2 article p{
-    width: 350px;
-    margin-top: 36px;
+    width: 450px;
     font-size: 16px;
     line-height: 20px;
     min-width: 300px;
@@ -186,7 +187,7 @@ main .sec2{
 }
 
 .boxtext{
-    margin-top: 15px;
+    margin-top: 8px;
     font-size: 16px;
     line-height: 20px;
     color: #B3B2B7;
@@ -195,5 +196,5 @@ main .sec2{
 }
 
 .boxl{
-    margin-top: 42px;
+    margin-bottom: 42px;
 }
