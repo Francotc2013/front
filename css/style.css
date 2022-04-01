@@ -198,3 +198,125 @@ main .sec2{
 .boxl{
     margin-bottom: 42px;
 }
+
+/* Seccion 3 */
+
+.titlesec3{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.sec3{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 70px 0;
+
+}
+
+.allcards{
+    display : flex;
+     margin: 0 60px;
+     padding-bottom: 45px;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+        
+        background-color: #FAFAFA;
+        
+}
+
+.card img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 140px;
+}
+.card p{
+    padding: 10px 15px;
+    color: #B9B9C1;
+    margin: 0;
+    
+}
+
+.card h3{
+    margin-top: 50px;
+}
+
+.sec1 article button {
+    cursor: pointer;
+    background-color: #F3603B;
+    color: white;
+    width: 135px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: -1px 7px 25px -3px rgba(0,0,0,0.75);
+}
+
+.sec1 article button:hover {
+    transition: all 0.25s ease-in-out;
+    background-color: rgba(242, 141, 119, 0.95);
+}
+
+.sec3 button{
+    cursor: pointer;
+    background-color: #F3603B;
+    color: white;
+    width: 134px;
+    height: 44px;
+    border: none;
+    border-radius: 50px;
+    box-shadow:   -1px 7px 25px -3px rgba(0,0,0,0.75);
+}
+
+.sec3 button:hover {
+    transition: all 0.25s ease-in-out;
+    background-color: rgba(242, 141, 119, 0.95);
+}
+    /* seccion 4 */
+
+.sec4{
+        margin-top: 180px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 64px 165px;
+        background-color: #F3613C;
+}
+
+.sec4 h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+}
+
+.sec4 button{
+    cursor: pointer;
+    color: #F3603B;
+    background-color: white;
+    width: 134px;
+    height: 44px;
+    border: none;
+    border-radius: 50px;
+    box-shadow:   -1px 7px 25px -3px rgba(0,0,0,0.75);
+}
+
+.sec4 button:hover{
+    transition: all 0.25s ease-in-out;
+    background-color:rgb(223, 167, 149) ;
+}
+
+/* Fotter */
+
+
+
